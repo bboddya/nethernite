@@ -1,24 +1,14 @@
-# nethernite-new
+# nethernite
 
-## Project setup
-```
-npm install
-```
+## Обзор
+Стек: Vue, Vuex, Bootstrap, Algolia;
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+В основу приложения взята поисковая система Algolia по рекомендации документации API jsdelivr. Из найденных в результате algolia, выбранный npm пакет добавляет данные в state, а затем, что позволяет передать данные в модальное окно. 
 
-### Compiles and minifies for production
-```
-npm run build
-```
+На карточку в поиске выводитсчя базовая информация.Более подробные данные выводятся в модальное окно.
+Устаревшие npm пакеты обозначаются с помощью значка deprecated;
 
-### Lints and fixes files
+## Установка и запуск
 ```
-npm run lint
+npm i && npm run start
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
